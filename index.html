@@ -433,8 +433,11 @@ ul.plain li::before {
       susceptibles de changer.</p>
     </section>
 
-      <p>Vos réponses et vos préférences, et rien d'autre, sont conservées dans l'espace
-      privé de l'application sur votre appareil :</p>
+    <section class="sec" id="fr-1">
+      <h2><span class="num">1</span> Ce que l'application enregistre sur votre téléphone</h2>
+
+      <p>Vos préférences et, si vous vous en servez, les montants de votre budget — et rien
+      d'autre — sont conservés dans l'espace privé de l'application sur votre appareil :</p>
 
       <ul class="keys">
         <li><code>app.locale</code><span>la langue choisie (français, anglais, espagnol, italien ou arabe)</span></li>
@@ -442,6 +445,7 @@ ul.plain li::before {
         <li><code>app.themeMode</code><span>l'affichage clair, sombre, ou celui du système</span></li>
         <li><code>app.favoriteSteps</code><span>les démarches que vous avez épinglées sur l'écran d'accueil</span></li>
         <li><code>app.onboardingDone</code><span>un indicateur qui évite de revoir l'écran d'accueil à chaque lancement</span></li>
+        <li><code>budget.amounts</code><span>les montants que vous saisissez vous-même dans le calculateur de budget, si vous vous en servez</span></li>
       </ul>
 
       <div class="note">
@@ -451,6 +455,17 @@ ul.plain li::before {
         n'en recueille aucune. La grille « autour de moi » affiche les mêmes lieux à
         tout le monde — la mosquée, l'église, la synagogue, les restaurants, la CAF, la
         pharmacie — et vous ouvrez celui qui vous intéresse.</p>
+      </div>
+
+      <div class="note">
+        <p><strong>Le calculateur de budget est la seule exception, et elle est à vous.</strong>
+        C'est le seul endroit où vous tapez des chiffres qui vous concernent — vos revenus
+        et vos dépenses. Ils ne partent nulle part : ils sont écrits dans l'espace privé de
+        l'application sur votre téléphone, comme les préférences ci-dessus, et l'éditeur ne
+        les voit jamais. Le calculateur fonctionne en mode avion. Vous les effacez quand
+        vous voulez, sans désinstaller l'application : le bouton corbeille de l'écran
+        Budget demande confirmation, puis supprime la clé. Et si vous n'ouvrez jamais cet
+        écran, la clé n'est jamais créée.</p>
       </div>
 
       <p>Une version antérieure de l'application posait deux questions, sur la confession
@@ -515,10 +530,11 @@ ul.plain li::before {
       un courriel : l'application ne fait que remettre l'adresse à l'application que vous
       avez choisie comme application par défaut.</p>
 
-      <p>Certains liens vers des services commerciaux (banque, assurance, opérateur
-      mobile) sont des liens de parrainage : ils sont signalés comme tels dans
-      l'application, ils ne coûtent rien de plus, et ils ne transmettent aucune donnée
-      personnelle depuis l'application.</p>
+      <p>Un de ces liens, vers une banque, est un lien de parrainage : il est signalé
+      comme tel dans l'application, une confirmation s'affiche avant qu'il ne s'ouvre, il
+      ne coûte rien de plus, et il ne transmet aucune donnée personnelle depuis
+      l'application. L'éditeur est récompensé si vous ouvrez un compte ; l'application ne
+      le sait pas et ne cherche pas à le savoir.</p>
     </section>
 
     <section class="sec" id="fr-4">
@@ -604,7 +620,7 @@ ul.plain li::before {
     sign-up and no password, and it never asks for your name, address, phone number or
     any identity document. All of its content — procedures, official links, frequent
     questions, the directory of prefectures and institutions — ships inside the app and
-    can be read without a connection.</p>
+    can be read without a connection: the app opens none of its own.</p>
 
     <section class="sec" id="en-gouv">
       <h2><span class="num">1bis</span> Government Information</h2>
@@ -632,8 +648,11 @@ ul.plain li::before {
       as administrative rules are subject to change.</p>
     </section>
 
-      <p>Your answers and your preferences, and nothing else, are kept in the app's
-      private storage on your device:</p>
+    <section class="sec" id="en-1">
+      <h2><span class="num">1</span> What the app stores on your phone</h2>
+
+      <p>Your preferences and, if you use it, the amounts of your budget — and nothing
+      else — are kept in the app's private storage on your device:</p>
 
       <ul class="keys">
         <li><code>app.locale</code><span>the language you chose (French, English, Spanish, Italian or Arabic)</span></li>
@@ -641,6 +660,7 @@ ul.plain li::before {
         <li><code>app.themeMode</code><span>light, dark, or the system setting</span></li>
         <li><code>app.favoriteSteps</code><span>the procedures you pinned to the home screen</span></li>
         <li><code>app.onboardingDone</code><span>a flag that stops the welcome screen from showing on every launch</span></li>
+        <li><code>budget.amounts</code><span>the amounts you type yourself into the budget calculator, if you use it</span></li>
       </ul>
 
       <div class="note">
@@ -650,6 +670,17 @@ ul.plain li::before {
         me" grid shows the same places to everyone — the mosque, the church, the
         synagogue, the restaurants, the CAF office, the pharmacy — and you open whichever
         one you came for.</p>
+      </div>
+
+      <div class="note">
+        <p><strong>The budget calculator is the one exception, and it belongs to you.</strong>
+        It is the only place where you type figures about yourself — your income and your
+        expenses. They go nowhere: they are written into the app's private storage on your
+        phone, like the preferences above, and the publisher never sees them. The
+        calculator works in flight mode. You can erase them whenever you like, without
+        uninstalling the app: the bin button on the Budget screen asks for confirmation,
+        then deletes the key. And if you never open that screen, the key is never
+        created.</p>
       </div>
 
       <p>An earlier version of the app asked two questions, about faith and about diet.
@@ -705,9 +736,10 @@ ul.plain li::before {
       <p>The same holds for links that open a map, a phone number or an email: the app
       only hands the address to whichever app you set as your default.</p>
 
-      <p>A few links to commercial services (bank, insurance, mobile operator) are
-      referral links: they are flagged as such inside the app, they cost you nothing
-      extra, and they carry no personal data out of the app.</p>
+      <p>One of those links, to a bank, is a referral link: it is flagged as such inside
+      the app, a confirmation appears before it opens, it costs you nothing extra, and it
+      carries no personal data out of the app. The publisher is rewarded if you open an
+      account; the app does not know whether you did and does not try to find out.</p>
     </section>
 
     <section class="sec" id="en-4">
